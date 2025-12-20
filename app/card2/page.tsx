@@ -32,7 +32,7 @@ function FramedCard () {
         <div className="w-[20rem] sm:w[24rem] md:w-[27rem] px-1">
        <div className="profile px-2 w-full mt-8 flex justify-between items-center">
     <div className="flex items-center">
-        <a className="font-semibold text-2xl">@ekwg</a>
+        <a className="font-semibold text-2xl">@parkaparkaparka</a>
     </div>
     <div className="badges ml-auto p-1 gap-1 flex items-center bg-neutral-950 bg-opacity-40 rounded-md">
     <svg xmlns="http://www.w3.org/2000/svg" height="140" viewBox="0 0 24 24" width="140">
@@ -64,20 +64,20 @@ function FramedCard () {
   <div className="aboutme mt-2 text-white text-opacity-90">
     <p>
       <span>
-      Inquiries:{" "}
+      inquiries:{" "}
         <a
           href="mailto:oohokay@proton.me"
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: "#87CEEB" }}
         >
-          !!!
+          here
         </a>
       </span>
       <br />
-       15 | html , python , c#
+       html python nextjs 
       <br />
-      ekwg on discord
+      
     </p>
   </div>
 </CardItem>
@@ -85,63 +85,76 @@ function FramedCard () {
 
 
 <CardItem translateZ="80" className="px-2 mt-8">
-    <h3 className="uppercase text-white text-opacity-55 font-semibold text-xs">Connections</h3>
-    <div className="gap-2 md:flex flex-wrap w-full">
-    <a href="https://www.instagram.com/payjaspe/" target="_blank" className="w-[48%]">
-            <div className="connection mt-2 bg-neutral-950 bg-opacity-70 rounded-md py-2.5 px-4 flex items-center gap-2 w-50%">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">
-  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-</svg>
-                Instagram
-                <div className="arrow ml-auto opacity-60 justify-end flex items-end">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                        <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
-                        <path fillRule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
-                    </svg>
-                </div>
-            </div>
-        </a>
- 
+  <h3 className="uppercase text-white text-opacity-55 font-semibold text-xs">Connections</h3>
+  <div className="gap-2 md:flex flex-wrap w-full">
 
-        <a href="https://discord.com/users/933839896823619654" target="_blank" className="w-[48%]">
-  <div className="connection mt-2 bg-neutral-950 bg-opacity-70 rounded-md py-2.5 px-4 flex items-center gap-2 w-50%">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
-      <path d="M20.317 4.369a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.248a18.257 18.257 0 0 0-5.487 0 12.54 12.54 0 0 0-.617-1.248.076.076 0 0 0-.078-.037A19.736 19.736 0 0 0 3.683 4.369a.069.069 0 0 0-.03.027C.533 9.045-.32 13.58.099 18.057a.086.086 0 0 0 .031.056 19.96 19.96 0 0 0 5.993 3.053.077.077 0 0 0 .084-.027c.462-.63.873-1.295 1.226-1.993a.076.076 0 0 0-.041-.103 13.214 13.214 0 0 1-1.884-.894.076.076 0 0 1-.008-.127c.126-.094.252-.19.374-.287a.074.074 0 0 1 .077-.01c3.927 1.792 8.18 1.792 12.061 0a.074.074 0 0 1 .078.009c.122.097.248.193.375.288a.076.076 0 0 1-.006.127 12.648 12.648 0 0 1-1.885.893.076.076 0 0 0-.04.104c.36.698.772 1.363 1.225 1.993a.076.076 0 0 0 .084.028 19.93 19.93 0 0 0 6.003-3.053.076.076 0 0 0 .03-.055c.5-5.177-.838-9.665-3.552-13.661a.062.062 0 0 0-.03-.028zM8.02 15.331c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.175 1.094 2.157 2.42 0 1.334-.955 2.418-2.157 2.418zm7.974 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.175 1.094 2.157 2.42 0 1.334-.947 2.418-2.157 2.418z"/>
-    </svg>
-    Discord
-    <div className="arrow ml-auto opacity-60 justify-end flex items-end">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-        <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
-        <path fillRule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
-      </svg>
-    </div>
+    {/* Steam */}
+    <a href="https://steamcommunity.com/id/v_models/" target="_blank" className="w-[48%]">
+      <div className="connection mt-2 bg-neutral-950 bg-opacity-70 rounded-md py-2.5 px-4 flex items-center gap-2 w-50%">
+        <svg 
+          viewBox="0 0 192 192" 
+          xmlns="http://www.w3.org/2000/svg" 
+          fill="currentColor" 
+          width="24" 
+          height="24"
+        >
+          <g transform="matrix(1.9641 0 0 1.96342 19.541 5.281)">
+            <path 
+              d="m.154 41.29 23.71 9.803a12.444 12.444 0 0 1 7.745-2.158l10.544-15.283-.001-.216c0-9.199 7.483-16.683 16.683-16.683 9.199 0 16.682 7.484 16.682 16.683S68.034 50.12 58.835 50.12c-.127 0-.253-.003-.379-.006l-15.038 10.73c.008.195.015.394.015.592 0 6.906-5.617 12.522-12.522 12.522-6.061 0-11.129-4.326-12.277-10.055l-16.956-7.01" 
+              fill="none" 
+              stroke="currentColor" 
+              strokeWidth="6.1" 
+              strokeLinecap="round" 
+              strokeLinejoin="round"
+            />
+            <ellipse cx="58.576" cy="33.435" rx="9.916" ry="9.922" fill="currentColor" />
+            <ellipse cx="31.079" cy="61.436" rx="7.437" ry="7.441" fill="currentColor" />
+          </g>
+        </svg>
+
+        Steam
+
+        <div className="arrow ml-[4rem] sm:ml-auto opacity-60 justify-end flex items-end">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+            <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+            <path fillRule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+          </svg>
+        </div>
+      </div>
+    </a>
+
+    {/* Discord */}
+    <a href="https://discord.com/users/933839896823619654" target="_blank" className="w-[48%]">
+      <div className="connection mt-2 bg-neutral-950 bg-opacity-70 rounded-md py-2.5 px-4 flex items-center gap-2 w-50%">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+          <path d="M20.317 4.369a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.248a18.257 18.257 0 0 0-5.487 0 12.54 12.54 0 0 0-.617-1.248.076.076 0 0 0-.078-.037A19.736 19.736 0 0 0 3.683 4.369a.069.069 0 0 0-.03.027C.533 9.045-.32 13.58.099 18.057a.086.086 0 0 0 .031.056 19.96 19.96 0 0 0 5.993 3.053.077.077 0 0 0 .084-.027c.462-.63.873-1.295 1.226-1.993a.076.076 0 0 0-.041-.103 13.214 13.214 0 0 1-1.884-.894.076.076 0 0 1-.008-.127c.126-.094.252-.19.374-.287a.074.074 0 0 1 .077-.01c3.927 1.792 8.18 1.792 12.061 0a.074.074 0 0 1 .078.009c.122.097.248.193.375.288a.076.076 0 0 1-.006.127 12.648 12.648 0 0 1-1.885.893.076.076 0 0 0-.04.104c.36.698.772 1.363 1.225 1.993a.076.076 0 0 0 .084.028 19.93 19.93 0 0 0 6.003-3.053.076.076 0 0 0 .03-.055c.5-5.177-.838-9.665-3.552-13.661a.062.062 0 0 0-.03-.028zM8.02 15.331c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.175 1.094 2.157 2.42 0 1.334-.955 2.418-2.157 2.418zm7.974 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.175 1.094 2.157 2.42 0 1.334-.947 2.418-2.157 2.418z"/>
+        </svg>
+        Discord
+        <div className="arrow ml-auto opacity-60 justify-end flex items-end">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+            <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+            <path fillRule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+          </svg>
+        </div>
+      </div>
+    </a>
+
+    {/* GitHub */}
+    <a href="https://github.com/knockemsockem" target="_blank" className="w-[48%]">
+      <div className="connection mt-2 bg-neutral-950 bg-opacity-70 rounded-md py-2.5 px-4 flex items-center gap-2 w-50%">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+        </svg>
+        GitHub
+        <div className="arrow ml-[4rem] sm:ml-auto opacity-60 justify-end flex items-end">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+            <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+            <path fillRule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+          </svg>
+        </div>
+      </div>
+    </a>
+
   </div>
-</a>
-
-
-        <a href="https://github.com/knockemsockem" target="_blank" className="w-[48%]">
-            <div className="connection mt-2 bg-neutral-950 bg-opacity-70 rounded-md py-2.5 px-4 flex items-center gap-2 w-50%">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
-                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-            </svg>
-                GitHub
-                <div className="arrow ml-[4rem] sm:ml-auto opacity-60 justify-end flex items-end">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                        <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
-                        <path fillRule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
-                    </svg>
-                </div>
-            </div>
-        </a>
-
-        
-
-    </div>
 </CardItem>
 
-      </CardBody>
-    </CardContainer>
-  );
-}
-
-export default FramedCard
