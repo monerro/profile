@@ -6,6 +6,7 @@ import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 
 function FramedCard () {
   return (
+    <audio src="/44.mp4" autoPlay loop muted style={{ display: 'none' }} />
     <CardContainer className="inter-var md:mx-0 mx-4 mt-0 md:mt-14">
       <CardBody className=" relative group/card  dark:hover:shadow-2xl dark:hover:shadow-gray-500/[0.1] bg-black bg-opacity-85  dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem translateZ="60" className="w-full rounded-md mt-4">
